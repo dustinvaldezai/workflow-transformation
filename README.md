@@ -46,13 +46,35 @@ The strongest results came from treating AI as part of a workflow rather than as
 
 Reliability improved when the system used clear stages, structured outputs, and explicit review checkpoints.
 
-## Next steps
+## What to inspect first
 
-This repository will be expanded with:
+If you are reviewing this as a portfolio project, start here:
 
-- workflow architecture
-- sample prompts
-- synthetic example data
-- verification checklist
-- sample outputs
-- implementation notes
+1. [Workflow architecture](./docs/architecture.md) — how the stages connect and where human review can send work back for revision.
+2. [Synthetic source input](./examples/sample-source.md) — a small fictional research set used to demonstrate the workflow.
+3. [Synthetic structured output](./examples/sample-structured-output.md) — how that source material becomes traceable claims, themes, open questions, and a draft synthesis.
+4. [Verification checklist](./docs/verification-checklist.md) — the checks used before an output is treated as decision-ready.
+
+## Repository map
+
+### `docs/`
+
+- [Workflow overview](./docs/workflow-overview.md)
+- [Workflow architecture](./docs/architecture.md)
+- [Verification checklist](./docs/verification-checklist.md)
+
+### `prompts/`
+
+- [Structured extraction](./prompts/structured-extraction.md)
+- [Thematic classification](./prompts/thematic-classification.md)
+- [Synthesis](./prompts/synthesis.md)
+
+### `examples/`
+
+- [Synthetic source input](./examples/sample-source.md)
+- [Synthetic structured output](./examples/sample-structured-output.md)
+- [Full workshop walkthrough](./examples/synthetic-workshop-research.md)
+
+## Scope
+
+This repository is a public, sanitized portfolio demonstration. The example material is synthetic, and the workflow is presented to show the system design, review logic, and decision process without exposing confidential source material.
